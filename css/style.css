@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(236, 221, 243);
+    font-family: 'Nunito', sans-serif;
+}
+
+.titulo,
+.subtitulo {
+    text-align: center;
+}
+
+.conteudo {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario button {
+    background-color: rgb(129, 6, 160);
+    padding: 10px 0;
+    margin: 10px 0;
+    border: none;
+    color: white;
+}
+
+.formulario input {
+    padding: 5px 0;
+}
+
+.comentario {
+    font-size: 12px;
+    background-color: white;
+    padding: 15px 5px;
+    border-radius: 5px;
+}
